@@ -40,9 +40,14 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm">
+                <div class="col-6 col-sm-3">
                     <div class="col-12 col-sm align-self-center">
                         <img src="img/logo.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-6 col-sm-3 align-self-center">
+                    <div class="col-12">
+                        <button class="btn btn-warning"><a href="#reservation-form">Reserve Table</a></button>
                     </div>
                 </div>
             </div>
@@ -94,6 +99,70 @@
                 
                 </div>
             </div>
+        </div>
+
+        <div class="row row-content col-12 col-md-8 offset-md-4">
+            <div class="card" id="reservation-form">
+                <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+                <div class="card-body">
+                    <form action="">
+                        <div class="form-group row">
+                            <label for="number-guests" class="col-md-2 col-form-label">Number of Guests</label>
+                            <div class="offset-sm-3 col-md-10">
+                                <div class="form-check-inline">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        1
+                                    </label>
+                                </div>
+                                <div class="form-check-inline">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        2
+                                    </label>
+                                </div>
+                                <div class="form-check-inline">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option3" checked>
+                                    <label class="form-check-label" for="exampleRadios3">
+                                        3
+                                    </label>
+                                </div>
+                                <div class="form-check-inline">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4" checked>
+                                    <label class="form-check-label" for="exampleRadios4">
+                                        4
+                                    </label>
+                                </div>
+                                <div class="form-check-inline">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option5" checked>
+                                    <label class="form-check-label" for="exampleRadios5">
+                                        5
+                                    </label>
+                                </div>
+                                <div class="form-check-inline">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios6" value="option6" checked>
+                                    <label class="form-check-label" for="exampleRadios6">
+                                        6
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="date-time" class="col-12 col-sm-4 col-form-label">Date and Time</label>
+                            <div class="col-md-8">
+                                <input class="form-control" type="date" value="Date" id="example-date-input">
+                                <input class="form-control" type="time" value="Time" id="example-time-input">
+                            </div>
+                        </div>
+                        <div class="form-group row justify-content-center">
+                            <button class="btn btn-primary">
+                                Reserve
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
         </div>
     </div>
 
